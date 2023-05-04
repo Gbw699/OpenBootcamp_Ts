@@ -8,7 +8,7 @@
     "start": "nodemon",
     "transpilation": "tsc",
     "build-prod": "rimraf ./build && tsc",
-    "start-prod": "npm run build-prod && node ./build/index.js"
+    "start-prod": "npm run build-prod && node ./build/functions.js"
   },
   "keywords": [
     "typescript",
